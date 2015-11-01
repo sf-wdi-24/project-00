@@ -85,7 +85,7 @@ By the time you submit this project, you will have leveled-up in many big themes
 
 * A **working game, built by you**
 * A **git repository hosted on Github** with frequent commits dating back to the very beginning of the project
-* **A `readme`** with explanations of the **technologies used**, **existing features**, **planned features**, and anything else you'd like to add. See [sample-readme](sample-readme.md) as a guide, and use this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" target="_blank">markdown cheatsheet</a> to help with formatting.
+* **A `readme`** with explanations of the **technologies used**, **existing features**, **planned features**, and anything else you'd like to add. See [example-readme](example-readme.md) as a guide, and use this <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet" target="_blank">markdown cheatsheet</a> to help with formatting.
 
 ---
 
