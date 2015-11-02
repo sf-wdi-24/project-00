@@ -12,13 +12,14 @@
   <!-- custom styles -->
   <link rel="stylesheet" type="text/css" href="main.css">
 
-  <title>Racing Game</title>
+  <title>Racing Keys</title>
 </head>
 <body>
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-12">
-        <h1 class="text-center">Racing Game</h1>
+        <h1 class="text-center">Racing Keys</h1>
+        <button class="btn btn-reset tmp-hidden" id="reset">Race Again!</button>
         <div id="track">
           <div class="player" data-key="a">a</div>
           <div class="player" data-key="l">l</div>
@@ -26,6 +27,7 @@
       </div>
     </div>
   </div>
+  <div id="confetti"></div>
   
   <!-- jquery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -33,10 +35,10 @@
   <!-- bootstrap js -->
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <!-- handlebars -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.min.js"></script>
+  <!-- confetti js -->
+  <script type="text/javascript" src="scripts/confetti.js"></script>
 
   <!-- custom script -->
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>
