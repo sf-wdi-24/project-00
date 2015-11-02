@@ -1,0 +1,19 @@
+#track {
+  background-color: beige;
+  height: 200px;
+  margin-top: 50px;
+  padding: 5px 0;
+  width: 100%;
+}
+.player {
+  background-color: turquoise;
+  border-radius: 50px;
+  font-size: 40px;
+  height: 80px;
+  line-height: 1;
+  margin: 10px 0;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80px;
+}
