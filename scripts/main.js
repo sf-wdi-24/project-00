@@ -1,29 +1,34 @@
 $(function() {
 
-  // set global variables
+  // global variables
+  $confetti = $('#confetti');
+  $reset = $('#reset');
   var winner = null;
+
+
+  // HELPER FUNCTIONS
 
   // reset to initial state of race
   var raceAgain = function() {
-    $('#confetti').css({'z-index': -1, opacity: 0});
-    $('#reset').addClass('tmp-hidden');
+    $confetti.css({'z-index': -1, opacity: 0});
+    $reset.addClass('tmp-hidden');
     $('.player').css({left: 0});
     winner = null;
   };
 
   // show confetti and reset button when winner declared
   var executeWin = function() {
-    $('#confetti').css({'z-index': 1, opacity: 1});
-    $('#reset').removeClass('tmp-hidden');
+    $confetti.css({'z-index': 1, opacity: 1});
+    $reset.removeClass('tmp-hidden');
   };
 
-  // movePlayer function takes keypress event and moves correct player
+  // take keypress event and move correct player
   var movePlayer = function(keypressEvent) {
 
     // returns key like 'a', 'l', etc.
     var keyCode = String.fromCharCode(keypressEvent.keyCode);
     
-    // find playera and player's position
+    // find player and player's position
     var $player = $('[data-key="' + keyCode + '"]');
     var leftPosition = $player.offset().left;
 
@@ -39,19 +44,19 @@ $(function() {
     }
   };
 
-  // race function sets event-handlers
+  // add event-handlers
   var race = function() {
     $(window).on('keypress', function(event) {
       if (!winner) {
         movePlayer(event);
       }
     });
-    $('#reset').on('click', function() {
+    $reset.on('click', function() {
       raceAgain();
     });
   };
 
-  // call race function to start the race!
+  // start the race!
   race();
 
 });

@@ -2,8 +2,16 @@
 
 h1 {
   font-family: 'Racing Sans One', cursive;
+  margin: 0 10px;
 }
 
+.header {
+  margin: 30px 0;
+}
+.header * {
+  display: inline-block;
+  vertical-align: top;
+}
 .player {
   background-color: #4ecdc4;
   border-radius: 50px;
@@ -22,7 +30,7 @@ h1 {
   color: white;
   left: 0;
   margin: auto;
-  margin-top: 3px;
+  margin-top: -18px;
   position: absolute;
   right: 0;
   width: 100px;
@@ -39,7 +47,6 @@ h1 {
 #track {
   background-color: beige;
   height: 200px;
-  margin-top: 30px;
   padding: 5px 0;
   width: 100%;
 }
