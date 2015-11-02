@@ -5,9 +5,6 @@ $(function() {
   $reset = $('#reset');
   var winner = null;
 
-
-  // HELPER FUNCTIONS
-
   // reset to initial state of race
   var raceAgain = function() {
     $confetti.css({'z-index': -1, opacity: 0});
