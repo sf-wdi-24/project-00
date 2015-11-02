@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Racing+Sans+One);
-
-h1 {
+body {
   font-family: 'Racing Sans One', cursive;
+}
+h1 {
   margin: 0 10px;
 }
 
@@ -19,7 +20,7 @@ h1 {
   height: 80px;
   line-height: 1;
   margin: 10px 0;
-  padding: 20px 0;
+  padding: 18px 0;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -29,11 +30,10 @@ h1 {
   background-color: #f2183d;
   color: white;
   left: 0;
-  margin: auto;
-  margin-top: -18px;
+  margin: 30px auto;
   position: absolute;
   right: 0;
-  width: 100px;
+  width: 130px;
   z-index: 2;
 }
 .btn-reset:hover {
